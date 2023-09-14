@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'dhompage2.dart';
+import 'pacific_medical_solution_pdf.dart';
 
 void main() => runApp(const MyApp());
 
@@ -22,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       darkTheme: ThemeData.dark().copyWith(
         primaryColor: Colors.blue,
       ),
-      home:  Home(),
+      home:  PDF2(),
     );
   }
 }
